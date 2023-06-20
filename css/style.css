@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 /* UTILS  */
 
 .flex {
@@ -65,7 +69,7 @@
 /* HEADER */
 
 header {
-  background-color: #a7d1de;
+  background-color: #3161e0;
   height: 100px;
 }
 
