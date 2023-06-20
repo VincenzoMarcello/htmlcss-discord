@@ -16,6 +16,10 @@ body {
   display: flex;
 }
 
+.direction {
+  flex-direction: column;
+}
+
 .container {
   max-width: 1400px;
   height: 100%;
@@ -79,14 +83,15 @@ body {
   background-color: #ffc0cb;
 }
 
-.col-c {
-  width: 50%;
-  min-height: 50px;
+h2 {
+  font-size: 3rem;
+  padding: 0px 100px;
 }
 
-.col-lr {
-  width: 25%;
-  min-height: 50px;
+.froggy-paragraph {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 20px 100px;
 }
 
 /* HEADER */
@@ -101,6 +106,16 @@ a {
   text-decoration: none;
   font-size: 1.2rem;
   padding: 0 20px;
+}
+
+.col-c {
+  width: 50%;
+  min-height: 50px;
+}
+
+.col-lr {
+  width: 25%;
+  min-height: 50px;
 }
 
 /* JUMBO CLASS */
@@ -137,10 +152,9 @@ h1 {
   padding: 15px 40px 25px 40px;
 }
 
-/* BLOCK BLUE PINK */
+/* FROGGY SECTION */
 .background-white {
-  background-color: white;
-  height: 500px;
+  height: 800px;
 }
 
 .col-sm {
