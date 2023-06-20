@@ -75,20 +75,12 @@ body {
   color: white;
 }
 
-.bb-skyblue {
-  background-color: #1e90ff;
-}
-
-.bb-pink {
-  background-color: #ffc0cb;
-}
-
 h2 {
   font-size: 3rem;
   padding: 0px 100px;
 }
 
-.froggy-paragraph {
+.main-paragraph {
   font-size: 1.5rem;
   line-height: 2rem;
   padding: 20px 100px;
@@ -127,10 +119,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.jumbo {
-  max-width: 100%;
 }
 
 .col-big {
