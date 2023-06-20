@@ -54,6 +54,11 @@ body {
   text-align: center;
 }
 
+.azure-b {
+  color: white;
+  background-color: #869adf;
+}
+
 .small-button {
   font-size: 1.2rem;
   padding: 10px 15px;
@@ -190,12 +195,12 @@ h1 {
   width: 90%;
 }
 
-/* BLOCK DARKPINK */
+/* FOOTER */
 
 .background-darkgrey {
   background-color: #23272a;
   height: 500px;
-  border-bottom: 2px solid #d3d3d3;
+  border-bottom: 1px solid #3e4868;
 }
 
 .col-sm-d {
@@ -217,14 +222,47 @@ h1 {
 .col-sm-footer {
   width: calc(100% / 4);
   height: 100%;
-  background-color: #20b2aa;
 }
 
-.border-f {
-  border: 2px dashed white;
+.img-ita {
+  width: 10%;
+  padding-right: 5px;
 }
 
-/* FOOTER BLOCK */
+ul {
+  padding-left: 60px;
+}
+
+li {
+  font-size: 1.3rem;
+  color: white;
+  padding: 5px 0;
+  list-style: none;
+}
+
+.special {
+  color: #7188d9;
+  font-weight: bold;
+}
+
+.selector {
+  border: none;
+  font-size: 1rem;
+  color: white;
+  background: none;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer-h {
+  font-size: 3rem;
+  color: #7188d9;
+}
+
+i {
+  font-size: 1.6rem;
+  color: white;
+  padding: 25px 15px;
+}
 
 .background-darkgrey-f {
   background-color: #23272a;
@@ -234,10 +272,8 @@ h1 {
 .col-footer {
   width: 100%;
   min-height: 100px;
-  background-color: #7fffd4;
 }
 
 .lb-footer {
   padding: 5px 15px;
-  background-color: #ffb6c1;
 }
