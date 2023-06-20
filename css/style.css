@@ -215,10 +215,6 @@ h1 {
   margin: 15px auto;
 }
 
-.background-darkpink {
-  background-color: #f08080;
-}
-
 .col-sm-footer {
   width: calc(100% / 4);
   height: 100%;
@@ -249,7 +245,7 @@ li {
   border: none;
   font-size: 1rem;
   color: white;
-  background: none;
+  background-color: #23272a;
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
