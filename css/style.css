@@ -75,9 +75,19 @@ body {
   color: white;
 }
 
+.big-button.azure {
+  background-color: #869adf;
+  color: white;
+}
+
 h2 {
   font-size: 3rem;
   padding: 0px 100px;
+}
+
+h3 {
+  font-size: 2rem;
+  padding-bottom: 20px;
 }
 
 .main-paragraph {
@@ -140,7 +150,7 @@ h1 {
   padding: 15px 40px 25px 40px;
 }
 
-/* FROGGY SECTION */
+/* FROGGY CLASS */
 .background-white {
   height: 800px;
 }
@@ -157,13 +167,13 @@ h1 {
   margin: 0 auto;
 }
 
-/* WIZARD SECTION */
+/* WIZARD CLASS */
 .background-grey {
   background-color: #f6f6f6;
   height: 800px;
 }
 
-/* BLOCK GREEN */
+/* BUNNY CLASS */
 
 .background-grey-big {
   background-color: #d3d3d3;
@@ -173,8 +183,11 @@ h1 {
 .col-exbig {
   width: 100%;
   height: 80%;
-  background-color: #228b22;
   margin: 0 auto;
+}
+
+.img-big {
+  width: 90%;
 }
 
 /* BLOCK DARKPINK */
